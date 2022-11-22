@@ -28,7 +28,7 @@ module AqaraLocalizable
       def run
         puts '如果多语言脚本插件有问题可以找zxf看看'.green
         target_path = Pathname.new(File.dirname(__FILE__)).realpath.parent.parent
-        
+
         system "cd #{target_path}/script/ios_py_code;python3 ios_sp_str_generator.py #{@project_directory}"
         # system 'cd /lib/script/ios_py_code;python3 ios_sp_str_generator.py'
       end
