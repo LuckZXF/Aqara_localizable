@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
     AqaraHome 多语言插件集成到Cocoapods.
     项目通过Pod install就可以直接从多语言平台更新项目多语言文件到项目文件中.
   ).strip.gsub(/\s+/, ' ') 
-  spec.homepage      = 'https://git.aqara.com/aqara-app/sdk/script.git'
+  spec.homepage      = 'https://github.com/LuckZXF/Aqara_localizable.git'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
