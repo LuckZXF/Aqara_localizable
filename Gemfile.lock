@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Aqara_localizable (0.0.3)
+    Aqara_localizable (0.0.4)
       claide (>= 1.0.2, < 2.0)
       hashtable (>= 0.0.3)
       xcodeproj (>= 1.19.0, < 2.0)
@@ -74,4 +74,4 @@ DEPENDENCIES
   rspec (~> 3.0)
 
 BUNDLED WITH
-   2.1.4
+   2.3.26
