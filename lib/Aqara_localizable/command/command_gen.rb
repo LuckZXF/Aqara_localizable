@@ -4,7 +4,6 @@ module AqaraLocalizable
   class Command
     class Gen < Command
       self.summary = '开始下载多语言平台的代码并替换项目多语言文件'
-
       def initialize(argv)
         super
         project_directory = argv.option('project-directory')
